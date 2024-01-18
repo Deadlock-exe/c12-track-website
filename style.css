@@ -71,7 +71,7 @@ h2{
 }
 .about{
     background-color: #FDFCE9;
-    padding: 8rem 20rem;
+    padding: 8rem 12rem;
 }
 .aboutHeading{
     display: flex;
@@ -92,14 +92,19 @@ h2{
     color: #013030;
     margin: 2rem;
 }
+.contain_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .outer_aboutBox{
     border: 8px solid #008080;
     border-radius: 80px;
     padding: 10px;
-    margin: 4rem 0;
+    margin: 4rem 10px;
 }
 .about_box{
-    width: 100%;
+    width: 350px;
     height: 350px;
     display: flex;
     align-items: center;
@@ -124,7 +129,7 @@ h2{
     width: 100%;
     padding: 2rem;
     font-family: monospace;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #013030;
 }
 .more{
@@ -150,9 +155,11 @@ h2{
 }
 .more_heading{
     padding: 2rem;
+    font-size: 1.3rem;
 }
 .more_content{
     font-family: monospace;
+    font-size: 1.02rem;
 }
 .more_app{
     padding: 2rem;
@@ -164,6 +171,7 @@ button{
     color: #013030;
     font-weight: 300;
     font-family: monospace;
+    cursor: pointer;
 }
 .contact{
     background-color: #FDFCE9;
