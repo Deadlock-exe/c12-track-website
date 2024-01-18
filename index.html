@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b81fd7f057.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <meta property="og:image" content="https://raw.githubusercontent.com/Deadlock-exe/c12-track-website/main/og-image.png">
+        <meta property="og:title" content="C12-Track">
+        <meta property="og:description" content="Track and reduce your carbon footprint with our app. Download now for a greener future.">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="C12-Track">
+<meta name="twitter:description" content="Track and reduce your carbon footprint with our app. Download now for a greener future.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Deadlock-exe/c12-track-website/main/og-image.png">
 
 </head>
 <body>
-    <div class="nav">
+    <script>
+        AOS.init({
+          duration: 1000,
+          once: true,
+        });
+      </script>
+    <div class="nav" id="home">
         <div class="nav_logo">
             <img src="logo.jpg" alt="">
         </div>
@@ -46,7 +63,7 @@
             </a>
         </div>
     </div>
-    <div class="home" id="home">
+    <div class="home">
         <div class="home_main">
             <h1>C12-TRACK</h1>
             <p>Sustainable Living, One Footprint at a Time.</p>
@@ -59,17 +76,17 @@
             </div>
         </div>
         <div class="contain_box">
-            <div class="outer_aboutBox">
+            <div class="outer_aboutBox" data-aos="fade-up">
                 <div class="about_box about_box1">
                     <h2>TRACK YOUR CARBON FOOTPRINT</h2>
                 </div>
             </div>
-            <div class="outer_aboutBox">
+            <div class="outer_aboutBox" data-aos="fade-up">
                 <div class="about_box about_box2">
                     <h2>DAILY USER INPUT FORM</h2>
                 </div>
             </div>
-            <div class="outer_aboutBox">
+            <div class="outer_aboutBox" data-aos="fade-up">
                 <div class="about_box about_box3">
                     <h2>PERSONALISED SUGGESTIONS EVERYDAY</h2>
                 </div>
@@ -83,10 +100,10 @@
             </div>
         </div>
         <div class="moreContent">
-            <div class="more_img">
+            <div class="more_img" data-aos="fade-up">
                 <img src="app.png" alt="" draggable="false">
             </div>
-            <div class="more_text">
+            <div class="more_text" data-aos="fade-up">
                 <div class="more_heading">
                     <h2>Elevate your journey with our app</h2>
                 </div>
