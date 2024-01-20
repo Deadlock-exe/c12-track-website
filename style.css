@@ -87,15 +87,23 @@ h2{
 }
 .home{
     background-color: #008080; 
-    padding: 9rem 10rem;
+    padding: 9rem 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 40vh;
     color: #FDFCE9;
 }
+.home_empty{
+    width: 150px;
+    height: 300px;
+}
 .home_main{
-    text-align: center;
+    text-align: left;
+}
+.home_mockup img{
+    width: 450px;
+    padding-bottom: 5rem;
 }
 .home h1{
     font-family: fantasy;
@@ -107,6 +115,24 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.6rem;
     padding-bottom: 7.5rem;
+}
+@media screen and (max-width:1300px){
+    .home_empty{
+        width: 50px;
+    }
+}
+@media screen and (max-width:1175px){
+    .home{
+        padding: 9rem 2rem;
+    }
+}
+@media screen and (max-width:1115px){
+    .home_empty, .home_mockup{
+        display: none;
+    }
+    .home_main{
+        text-align: center;
+    }
 }
 @media screen and (max-width:875px){
     .home h1{
@@ -122,7 +148,7 @@ h2{
         padding: 9rem 4rem;
     }
     .home h1{
-        margin: 1rem 0;
+        margin: 1.5rem 0;
     }
 }
 @media screen and (max-width:550px){
