@@ -16,7 +16,7 @@ C12 Track helps you track and reduce your carbon footprint in travel, energy, fo
 ## Get Started
 
 1. **Download:** Get APK from the website.
-2. **Install:** Install the app on your Android device.
+2. **Install:** Install the app on your device.
 3. **Sign Up/Log In:** Access personalized features.
 
 Make a positive impact on the planet. Download C12 Track now!
